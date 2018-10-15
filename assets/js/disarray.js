@@ -72,6 +72,12 @@ function genReviewCards() {
     return ("<div class='tinyGen' data-topic='" + genTinyReview +"'>" + genTinyReview + '</div>');
   }).join(" "));
 }
+// generate cards for understand
+function genUnderstandCards() {
+  $(".tinyUnderstand").html(reviewArr.id.map(function (genTinyUnderstand) {
+    return ("<div class='tinyGen' data-topic='" + genTinyUnderstand +"'>" + genTinyUnderstand + '</div>');
+  }).join(" "));
+}
 
 //on click toggle between question and answer state
 
