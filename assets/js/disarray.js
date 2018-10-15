@@ -67,11 +67,11 @@ function changeState() {
 }
 
 // generate cards for review
-// function genReviewCards() {
-//   $(".tinyReview").html(reviewArr.id.map(function (genTinyReview) {
-//     return ("<div class='tinyGen' data-topic='" + genTinyReview +"'>" + genTinyReview + '</div>');
-//   }).join(" "));
-// }
+function genReviewCards() {
+  $(".tinyReview").html(reviewArr.id.map(function (genTinyReview) {
+    return ("<div class='tinyGen' data-topic='" + genTinyReview +"'>" + genTinyReview + '</div>');
+  }).join(" "));
+}
 
 //on click toggle between question and answer state
 
